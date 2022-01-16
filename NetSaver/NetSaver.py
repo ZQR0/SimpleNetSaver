@@ -33,4 +33,5 @@ class Net_Saver:
 
 #Choose the function and use it with print
 if __name__ == '__main__':
-    pass
+    client = Net_Saver(url='UR URL')
+    print(client.any_function)
